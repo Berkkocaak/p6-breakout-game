@@ -12,15 +12,3 @@ class Brick(Turtle):
         self.penup()
         self.speed(0)
         self.goto(pos)
-        
-        if self.ycor() == 80:
-            self.color("red")
-
-        elif self.ycor() == 110:
-            self.color("green")
-
-        elif self.ycor() == 140:
-            self.color("blue")
-
-        elif self.ycor() == 170:
-            self.color("yellow")
