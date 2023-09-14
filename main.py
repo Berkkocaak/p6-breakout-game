@@ -126,37 +126,4 @@ move_ball()
 #canvas = getcanvas()
 #canvas.bind('<Motion>', motion)
 
-
 screen.exitonclick()
-
-
-
-
-
-
-## Get current mouse position's x value
-## and store it as "mouse_x"
-#
-#mouse_x = 0
-#
-#def motion(event):
-#    global mouse_x
-#    delay(10)
-#    x = (event.x)-500
-#    mouse_x = x
-#
-#canvas = getcanvas()
-#canvas.bind('<Motion>', motion)
-#
-## Main game_loop that moves the player and
-## the ball
-#
-#game_is_running = True
-#
-#while game_is_running:
-#    if mouse_x > player.xcor():
-#        player.motion(heading=0, mouse_x=mouse_x)
-#    else:
-#        player.motion(heading=180, mouse_x=mouse_x)
-#
-#    update()
